@@ -5,6 +5,9 @@ on:
   push:
     tags:
       - "*"
+    branches:
+      - dev-v2
+      
 
 jobs:
   build_regular_docker:
