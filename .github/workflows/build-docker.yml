@@ -59,7 +59,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          file: ./resources/docker/dockerfiles/release-multiplatform.Dockerfile
+          file: ./resources/docker/dockerfiles/release-multiplatform-simple.Dockerfile
           platforms: linux/amd64
           
   
